@@ -1,0 +1,17 @@
+---
+title: "Lecture11"
+author: "Tejus Krishnan"
+date: "5/20/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+source("assignment.R")
+```
+
+## Lecture 11 Exercise
+I'll be walking through some of the variables in assignment 4. Specifically the data from Kaggle.
+
+
+The project with the highest goal was `r highest_goal`. The category of project with the lowest goal was `r lowest_goal_category`. The proportion of projects that weren't marked successful was `r proportion_failed`.
