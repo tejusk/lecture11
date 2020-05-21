@@ -7,11 +7,8 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-source("assignment.R")
+source("test.R")
 ```
 
 ## Lecture 11 Exercise
-I'll be walking through some of the variables in assignment 4. Specifically the data from Kaggle.
-
-
-The project with the highest goal was `r highest_goal`. The category of project with the lowest goal was `r lowest_goal_category`. The proportion of projects that weren't marked successful was `r proportion_failed`.
+I made a test file in this folder to demonstrate R Markdown files. The variable "x" has the value of `r x` and the variable "y" has the value `r y`.
